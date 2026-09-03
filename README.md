@@ -1,4 +1,4 @@
-# 🔍 PyMemory Process Inspector
+# 🔍 Python Glow Script BY. fio
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
