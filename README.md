@@ -7,16 +7,6 @@ Markdown
 
 **Csgo-Python-Wallhack-Script**, Counter-Strike: Global Offensive (Legacy Sürümü) bellek mimarisi, işaretçi (pointer) offset'leri ve istemci tarafı (client-side) nesne taraması üzerine geliştirilmiş Python tabanlı bir bellek yönetim inceleme aracıdır.
 
----
-
-### 🌟 Özellikler
-
-* **Bellek Adresleme:** `client.dll` modülü üzerinden nesne dizisi (Entity List) taraması.
-* **Glow Object Manager:** Bellekteki nesne işaretçilerine dinamik olarak renk ve opaklık verisi aktarımı.
-* **Hafif İşlem:** Düşük kaynak kullanımı ile optimize edilmiş döngüsel okuma/yazma.
-
----
-
 ### 📂 Proje Yapısı
 
 ```text
