@@ -1,36 +1,45 @@
-Markdown
-# 🔍 Csgo-Python-Wallhack-Script
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Geliştirici: Fiorith](https://img.shields.io/badge/Geli%C5%9Ftiri-Fiorith-brightgreen.svg)](https://github.com/Traidnng)
-
-**Csgo-Python-Wallhack-Script**, Counter-Strike: Global Offensive (Legacy Sürümü) bellek mimarisi, işaretçi (pointer) offset'leri ve istemci tarafı (client-side) nesne taraması üzerine geliştirilmiş Python tabanlı bir bellek yönetim inceleme aracıdır.
-
+<div align="center">
+  <h1 align="center">🎯 CS:GO Python Memory Glow & ESP Script</h1>
+  <p align="center">
+    <b>Counter-Strike: Global Offensive (Legacy) bellek yapıları ve nesne taraması inceleme aracı.</b>
+  </p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/Win32_API-Memory-blueviolet?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/License-MIT-crimson?style=for-the-badge" />
+  </p>
+</div>
+---
+### 📖 Proje Hakkında
+Bu proje; CS:GO Legacy sürümünün bellek haritası, oyuncu varlık dizileri (`dwEntityList`), glow nesne yöneticisi (`dwGlowObjectManager`) ve bellek içi işaretçi zincirlerini (pointer chains) Python ve Win32 API kullanarak analiz etmek amacıyla yazılmıştır.
+> ⚠️ **Disclaimer:** Bu repo yalnızca oyun güvenliği, bellek manipülasyonu ve tersine mühendislik eğitim araştırmaları için hazırlanmıştır.
+---
+### 🚀 Özellikler
+- **Glow / ESP Nesne Analizi:** `client.dll` modül tabanını dinamik olarak okuyarak düşman/takım ayrımı yapar.
+- **Düşük Kaynak Tüketimi:** Optimize edilmiş döngü gecikmeleri ve işlemci dostu bellek okuma/yazma.
+- **Dinamik Modül Çözümleme:** `client.dll` ve `engine.dll` adreslerini runtime sırasında yakalar.
+---
 ### 📂 Proje Yapısı
-
 ```text
 Csgo-Python-Wallhack-Script/
 ├── .gitignore
 ├── LICENSE
-├── README.md            # Proje dokümantasyonu
-├── main.py              # Bellek yönetim ve ana tarama betiği
-└── requiriments.txt     # Gerekli Python kütüphaneleri
-```
-🚀 Kurulum & Çalıştırma
-Repoyu Klonlayın:
+├── README.md
+├── main.py
+└── requirements.txt
 
-```Bash
-git clone [https://github.com/Traidnng/Csgo-Python-Wallhack-Script.git](https://github.com/Traidnng/Csgo-Python-Wallhack-Script.git)
+  
+
+  
+🛠️ Kurulum & Çalıştırma
+
+  
+bash
+# 1. Repoyu klonlayın
+git clone https://github.com/Traidnng/Csgo-Python-Wallhack-Script.git
 cd Csgo-Python-Wallhack-Script
-Gerekli Bağımlılıkları Yükleyin:
-```
-```Bash
-pip install -r requiriments.txt
-Uygulamayı Çalıştırın:
-```
-```Bash
+# 2. Gereksinimleri yükleyin
+pip install -r requirements.txt
+# 3. Çalıştırın
 python main.py
-```
-🛡️ Sorumluluk Reddi
-Bu depo tamamen eğitim, yazılım mimarisi analizi ve sistem bellek araştırmaları amacıyla oluşturulmuştur.
